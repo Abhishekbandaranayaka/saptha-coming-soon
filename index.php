@@ -58,7 +58,7 @@
 <body>
 
     <!--Navbar-->
-    <?php include 'components/default-navbar.php'; ?>
+    <?php include 'components/navbar.php'; ?>
 
 
     <!-- hero-style2 -->
@@ -108,11 +108,9 @@
     <!-- End hero-style4 -->
 
     <!-- service-sec18 -->
-    <section class="service-sec18">
-        <div class="container2">
+    <section class="service-sec18 mb-4">
+        <div class=" container2">
             <div class="row d-flex align-items-stretch">
-
-                <!-- LEFT -->
                 <div class="col-lg-4 d-flex mb-4 mb-lg-0">
                     <div class="service-block18 h-100">
                         <h4 class="title">
@@ -121,10 +119,8 @@
                         </h4>
                     </div>
                 </div>
-
-                <!-- RIGHT -->
                 <div class="col-lg-8 d-flex">
-                    <div class="ser-img18 h-100">
+                    <div class="ser-img18 flex-fill">
                         <video autoplay muted loop playsinline class="video-bg">
                             <source
                                 src="https://demo.artureanec.com/themes/aiero/wp-content/uploads/2025/04/0_3d-Render_Abstract_1280x720.mp4"
@@ -141,47 +137,7 @@
             </div>
         </div>
     </section>
-
-
     <!-- End service-sec18 -->
-
-    <!-- service-sec7 -->
-    <section class="service-sec7 mb-4">
-        <div class="container2">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="service-content7">
-                        <h4 class="title">We work and integrate with latest technologies</h4>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="service-box7">
-                        <div class="social-link3">
-                            <img src="assets/images/technologies/React.svg" alt="technologies">
-                            <span>React</span>
-                        </div>
-                        <div class="social-link3">
-                            <img src="assets/images/technologies/Node.js.svg" alt="technologies">
-                            <span>Node</span>
-                        </div>
-                        <div class="social-link3">
-                            <img src="assets/images/technologies/Laravel.svg" alt="technologies">
-                            <span>Laravel</span>
-                        </div>
-                        <div class="social-link3">
-                            <img src="assets/images/technologies/Tailwind CSS.svg" alt="technologies">
-                            <span>Tailwind</span>
-                        </div>
-                        <div class="social-link3 m-0">
-                            <img src="assets/images/technologies/Flutter.svg" alt="technologies">
-                            <span>Flutter</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End service-sec7 -->
 
     <!-- service-sec12 -->
     <section class="service-sec12">
@@ -463,20 +419,6 @@
             </div>
         </div>
         <!-- End funfact-sec2 -->
-
-        <!-- video-banner2 -->
-        <div class="video-banner2">
-            <div class="video-banner-img2">
-                <img src="assets/images/logo/logo-white.png" width="300" alt="logo">
-                <div class="video-box4">
-                    <a href="about.php" aria-label="about" class="video-popup">
-                        <span style="margin-right: 5px">Learn More</span>
-                        <i class="icon-arrow-top"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- End video-banner2 -->
     </section>
     <!-- End main-section2 -->
 
@@ -591,112 +533,60 @@
             </div>
             <div class="languages-content">
                 <div class="world-languages">
-                    <div class="country">
-                        <img src="assets/images/event/language.png" alt="countries">
-                        <span>American</span>
+                    <div class="country"><img src="assets/images/event/language.png" alt="countries"><span>United
+                            States</span></div>
+                    <div class="country"><img src="assets/images/event/language2.png" alt="countries"><span>United
+                            Kingdom</span></div>
+                    <div class="country"><img src="assets/images/event/language3.png"
+                            alt="countries"><span>France</span></div>
+                    <div class="country"><img src="assets/images/event/language4.png" alt="countries"><span>Spain</span>
                     </div>
-                    <div class="country">
-                        <img src="assets/images/event/language2.png" alt="countries">
-                        <span>Brirish</span>
+                    <div class="country"><img src="assets/images/event/language5.png"
+                            alt="countries"><span>Germany</span></div>
+                    <div class="country"><img src="assets/images/event/language6.png" alt="countries"><span>China</span>
                     </div>
-                    <div class="country">
-                        <img src="assets/images/event/language3.png" alt="countries">
-                        <span>French</span>
+                    <div class="country"><img src="assets/images/event/language7.png"
+                            alt="countries"><span>Norway</span></div>
+                    <div class="country"><img src="assets/images/event/language8.png"
+                            alt="countries"><span>Ukraine</span></div>
+                    <div class="country"><img src="assets/images/event/language9.png" alt="countries"><span>India</span>
                     </div>
-                    <div class="country">
-                        <img src="assets/images/event/language4.png" alt="countries">
-                        <span>Spanich</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language5.png" alt="countries">
-                        <span>German</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language6.png" alt="countries">
-                        <span>Chinese</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language7.png" alt="countries">
-                        <span>Norwegian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language8.png" alt="countries">
-                        <span>Ukrainian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language9.png" alt="countries">
-                        <span>Indian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language10.png" alt="countries">
-                        <span>Australian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language11.png" alt="countries">
-                        <span>Estonish</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language12.png" alt="countries">
-                        <span>Georgian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language13.png" alt="countries">
-                        <span>Japanies</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language14.png" alt="countries">
-                        <span>Finnish</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language15.png" alt="countries">
-                        <span>Slovakian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language16.png" alt="countries">
-                        <span>Italian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language17.png" alt="countries">
-                        <span>Slovenian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language18.png" alt="countries">
-                        <span>Swiss</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language19.png" alt="countries">
-                        <span>Polish</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language20.png" alt="countries">
-                        <span>Armenian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language21.png" alt="countries">
-                        <span>Portuguese</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language22.png" alt="countries">
-                        <span>Paraguayan</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language23.png" alt="countries">
-                        <span>Brazilian</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language24.png" alt="countries">
-                        <span>Thai</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language25.png" alt="countries">
-                        <span>Czech</span>
-                    </div>
-                    <div class="country">
-                        <img src="assets/images/event/language26.png" alt="countries">
-                        <span>Belgian</span>
-                    </div>
-
+                    <div class="country"><img src="assets/images/event/language10.png"
+                            alt="countries"><span>Australia</span></div>
+                    <div class="country"><img src="assets/images/event/language11.png"
+                            alt="countries"><span>Estonia</span></div>
+                    <div class="country"><img src="assets/images/event/language12.png"
+                            alt="countries"><span>Georgia</span></div>
+                    <div class="country"><img src="assets/images/event/language13.png"
+                            alt="countries"><span>Japan</span></div>
+                    <div class="country"><img src="assets/images/event/language14.png"
+                            alt="countries"><span>Finland</span></div>
+                    <div class="country"><img src="assets/images/event/language15.png"
+                            alt="countries"><span>Slovakia</span></div>
+                    <div class="country"><img src="assets/images/event/language16.png"
+                            alt="countries"><span>Italy</span></div>
+                    <div class="country"><img src="assets/images/event/language17.png"
+                            alt="countries"><span>Slovenia</span></div>
+                    <div class="country"><img src="assets/images/event/language18.png"
+                            alt="countries"><span>Switzerland</span></div>
+                    <div class="country"><img src="assets/images/event/language19.png"
+                            alt="countries"><span>Poland</span></div>
+                    <div class="country"><img src="assets/images/event/language20.png"
+                            alt="countries"><span>Armenia</span></div>
+                    <div class="country"><img src="assets/images/event/language21.png"
+                            alt="countries"><span>Portugal</span></div>
+                    <div class="country"><img src="assets/images/event/language22.png"
+                            alt="countries"><span>Paraguay</span></div>
+                    <div class="country"><img src="assets/images/event/language23.png"
+                            alt="countries"><span>Brazil</span></div>
+                    <div class="country"><img src="assets/images/event/language24.png"
+                            alt="countries"><span>Thailand</span></div>
+                    <div class="country"><img src="assets/images/event/language25.png" alt="countries"><span>Czech
+                            Republic</span></div>
+                    <div class="country"><img src="assets/images/event/language26.png"
+                            alt="countries"><span>Belgium</span></div>
                 </div>
+
                 <a class='ibt-btn ibt-btn-outline' aria-label="about" href='about.php' title>
                     <span>More
                         Details</span>

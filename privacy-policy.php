@@ -51,14 +51,12 @@
 
 
         <!--Navbar-->
-        <?php include 'components/sub-navbar.php'; ?>
+        <?php include 'components/navbar.php'; ?>
 
 
         <!-- page-banner -->
         <section class="page-banner4">
-            <div class="shape"></div>
-            <div class="shape3"></div>
-            <div class="staff-text">Saptha</div>
+            <div class="staff-text">Policies</div>
             <div class="container">
                 <div class="page-content">
                     <h1 class="title">Privacy Policy</h1>
@@ -77,8 +75,8 @@
             <!-- Overlay -->
             <div class="sidebar-overlay"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-10">
                         <div class="blog-single-content">
                             <blockquote style="margin-top: -20px;">
                                 <div class="quote-box">

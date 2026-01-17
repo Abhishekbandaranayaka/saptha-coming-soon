@@ -51,16 +51,14 @@
 
 
         <!--Navbar-->
-        <?php include 'components/sub-navbar.php'; ?>
+        <?php include 'components/navbar.php'; ?>
 
         <!-- page-banner -->
         <section class="page-banner3">
-            <div class="shape"></div>
-            <div class="shape3"></div>
-            <div class="staff-text">Saptha</div>
+            <div class="staff-text">Services</div>
             <div class="container">
                 <div class="page-content">
-                    <h1 class="title">Services</h1>
+                    <h1 class="title">Our Services</h1>
                 </div>
             </div>
             <ul class="breadcrumbs">
@@ -70,6 +68,60 @@
             </ul>
         </section>
         <!-- End page-banner -->
+
+
+        <div class="about-us-sec6 ibt-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="about-content6">
+                            <div class="sec-title mb-0">
+                                <span class="sub-title">our services</span>
+                                <h2 class="title animated-heading">Smart software solutions built to grow your business.
+                                </h2>
+                                <p>
+                                    We design and develop powerful digital solutions that help businesses streamline
+                                    operations,
+                                    enhance productivity, and improve customer experiences across every touchpoint. From
+                                    modern
+                                    websites and mobile applications to complex enterprise systems, our solutions are
+                                    carefully
+                                    crafted to solve real business challenges, reduce manual effort, and create
+                                    long-term value.
+                                </p>
+                                <p class="paragraph">
+                                    Our team blends strategy, creative design, and advanced technology to deliver
+                                    reliable, secure,
+                                    and future-ready software. Whether you’re a fast-growing startup or an established
+                                    enterprise,
+                                    we take time to understand your vision, processes, and market, then tailor every
+                                    solution to fit
+                                    your goals, industry needs, and growth plans.
+                                </p>
+
+                                <a class='ibt-btn ibt-btn-outline' href='contacts.php' title>
+                                    <span>Contact Us</span>
+                                    <i class="icon-arrow-top"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End about-us-sec6 -->
+
+        <!-- science-lab -->
+        <div class="science-lab">
+            <div class="container-fluid">
+                <div class="science-content">
+                    <h2 class="title"><span></span> Modern <span class="gradient">Solutions</span>
+                        <span></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!-- End science-lab -->
 
         <!-- service-sec6 -->
         <section class="service-sec6 ibt-section-gap">
@@ -144,19 +196,6 @@
         </section>
         <!-- End service-sec6 -->
 
-        <!-- marquee-sec -->
-        <section class="marquee-sec">
-            <h2 style="display:none;">Marquee Section</h2>
-            <div class="marquee">
-                <div class="marquee-inner">
-                    <span>/ Ambitious companies leverage
-                        our capabilities to ideate, build and scale.</span>
-                    <span>/ Ambitious companies leverage
-                        our capabilities to ideate, build and scale.</span>
-                </div>
-            </div>
-        </section>
-        <!-- End marquee-sec -->
 
         <!-- feature-style10 -->
         <section class="feature-sec10 ibt-section-gap">
@@ -201,15 +240,15 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="feature-card10">
-                            <img src="assets/images/feature/feature5.svg" alt="service image 5">
-                            <h4 class="title">Enterprise Solutions & ERP</h4>
+                            <img src="assets/images/feature/feature6.svg" alt="service image 5">
+                            <h4 class="title">Enterprise Solutions Systems & ERP</h4>
                             <p>Optimizing operations with enterprise-grade systems.
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="feature-card10">
-                            <img src="assets/images/feature/feature6.svg" alt="service image 6">
+                            <img src="assets/images/feature/feature5.svg" alt="service image 6">
                             <h4 class="title">Data Analytics & Business Intelligence</h4>
                             <p>Turning complex data into actionable business insights.
                             </p>

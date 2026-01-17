@@ -51,14 +51,11 @@
 
 
         <!--Navbar-->
-        <?php include 'components/sub-navbar.php'; ?>
-
+        <?php include 'components/navbar.php'; ?>
 
         <!-- page-banner9 -->
         <section class="page-banner11">
-            <div class="shape"></div>
-            <div class="shape3"></div>
-            <div class="staff-text">Saptha</div>
+            <div class="staff-text">About</div>
             <div class="container">
                 <div class="page-content">
                     <h1 class="title">About Us</h1>

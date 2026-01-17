@@ -50,7 +50,8 @@
      <!-- Side Menu -->
  <div class="side-menu" id="sideMenu">
      <div class="overlay" id="overlay"></div>
-     <a href="javascript:void(0)" class="close-btn" id="closeBtn" aria-label="close button"><i class="fa fa-close"></i>
+     <a href="javascript:void(0)" aria-label="close button" class="close-btn" id="closeBtn" aria-label="close"><i
+             class="fa fa-close"></i>
          close</a>
      <div class="menu-content">
          <a class='logo' href='index.html' aria-label="home">
@@ -61,9 +62,10 @@
              <p>166A/A/01<br> Egaloya, Bulathsinhala</p>
              <a href="tel:+94773340795" aria-label="mobile" class="nmbr">(+94)
                  773340795</a>
-             <a href="https://wa.me/0760543394" aria-label="whatsapp" target="_blank" class="nmbr">(+94)
+             <a href="https://wa.me/0760543394" aria-label="mobile" target="_blank" class="nmbr">(+94)
                  760543394</a>
              <a href="mailto:info@sapthaglobal.com" aria-label="email" class="email">info@sapthaglobal.com</a>
+
          </div>
          <ul class="social-icon">
              <li><a href="www.facebook.html" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -74,6 +76,7 @@
          </ul>
      </div>
  </div>
+
  <!-- New Mobile Menu -->
  <div data-menu="mobileMenu" class="side-menu2">
      <div class="menu-btns">
@@ -105,106 +108,22 @@
  <!-- Overlay for Mobile Menu -->
  <div class="overlay2"></div>
 
- <!-- sticky header -->
- <header class="sticky-active">
-     <div class="header-menu-area">
-         <div class="row gx-20 align-items-center justify-content-between">
-             <div class="col-auto">
-                 <div class="header-logo">
-                     <a href="javascript:void(0)" aria-label="toggle" class="menu-toggle"></a>
-                     <a href='index.html' aria-label="home">
-                         <img src="assets/images/logo/logo.png" width="220" alt="logo">
-                     </a>
-                 </div>
-             </div>
-             <div class="col-auto">
-                 <nav class="main-menu menu-style1 v4" style="background-color: black;">
-                     <ul>
-                         <li>
-                             <a href='about.html' aria-label="about us">
-                                 <span class=" menu-item">About Us</span>
-                                 <span class="menu-item2">About Us</span>
-                             </a>
-                         </li>
-                         <li>
-                             <a href='services.html' aria-label="services">
-                                 <span class="menu-item">Services</span>
-                                 <span class="menu-item2">Services</span>
-                             </a>
-                         </li>
-                         <li>
-                             <a href='careers.html' aria-label="careers">
-                                 <span class="menu-item">Careers</span>
-                                 <span class="menu-item2">Careers</span>
-                             </a>
-                         </li>
-                         <li>
-                             <a href='contacts.html' aria-label="contacts">
-                                 <span class="menu-item">Contacts</span>
-                                 <span class="menu-item2">Contacts</span>
-                             </a>
-                         </li>
-                     </ul>
-                 </nav>
-             </div>
-             <div class="col-auto d-none d-xl-block">
-                 <div class="btn-box">
-                     <a href="contacts.html" aria-label="contacts" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
-                         <span>Get in Touch</span>
-                     </a>
-                 </div>
-             </div>
-         </div>
-         <button class="hamburger popup-menu" data-menu="mobileMenu">
-             <span></span>
-             <span></span>
-             <span></span>
-         </button>
-     </div>
- </header>
- <!-- End sticky header -->
-
  <!--======== Header ========-->
  <header class="vs-header15">
-     <div class="header-top4">
-         <div class="container-fluid">
-             <div class="header-top-content4">
-                 <ul class="top-bar-contacts">
-                     <li>
-                         <span class="contact-item-title">Call us:</span>
-                         <a href="tel:+94773340795" aria-label="mobile">(+94) 773340795</a>
-                     </li>
-                     <li>
-                         <span class="contact-item-title">Email:</span>
-                         <a href="mailto:info@sapthaglobal.com" aria-label="email">info@sapthaglobal.com</a>
-                     </li>
-                 </ul>
-                 <ul class="top-bar-socials">
-                     <li><span>Follow us:</span></li>
-                     <li><a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                     <li><a href="#" aria-label="x"><i class="fab fa-twitter"></i></a></li>
-                     <li><a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                     <li><a href="https://wa.me/0760543394" aria-label="whatsapp" target="_blank"><i
-                                 class="fab fa-whatsapp"></i></a></li>
-                 </ul>
-             </div>
-         </div>
-     </div>
-     <!--vs-main-menu-wrapper start-->
      <div class="header-bottom15">
-         <div class="container2 position-relative">
+         <div class="container2">
              <div class="header-menu-area">
                  <div class="row gx-20 align-items-center justify-content-between">
                      <div class="col-auto">
-                         <div class="header-logo">
+                         <div class="header-logo" style="padding: 0px">
                              <a href="javascript:void(0)" aria-label="toggle" class="menu-toggle"></a>
                              <a href='index.html' aria-label="home">
-                                 <img src="assets/images/logo/logo.png" width="220" alt="logo">
+                                 <img src="assets/images/logo/logo.png" class="logo" alt="logo">
                              </a>
                          </div>
                      </div>
                      <div class="col-auto">
-                         <nav class="main-menu menu-style1 v4" style="background-color: black;">
+                         <nav class="main-menu menu-style1 v4">
                              <ul>
                                  <li>
                                      <a href='about.html' aria-label="about us">
@@ -234,9 +153,8 @@
                          </nav>
                      </div>
                      <div class="col-auto d-none d-xl-block">
-                         <div class="btn-box">
-                             <a href="contacts.html" aria-label="contacts"
-                                 class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                         <div>
+                             <a href="contacts.html" aria-label="contacts" class="header-button">
                                  <span>Get in Touch</span>
                              </a>
                          </div>
@@ -252,17 +170,15 @@
      </div>
      <!--vs-main-menu-wrapper end-->
  </header>
- <!--======== / Header ========-->
 
 
     <!-- page-banner9 -->
     <section class="page-banner9">
-        <div class="shape"></div>
-        <div class="shape3"></div>
+
         <div class="staff-text">Contacts</div>
         <div class="container">
             <div class="page-content">
-                <h1 class="title">Contacts</h1>
+                <h1 class="title">Contact Us</h1>
             </div>
         </div>
         <ul class="breadcrumbs">
@@ -308,7 +224,7 @@
                                 <div class="contact-info">
                                     <div class="call-center2">
                                         <h4 class="title">Our Location</h4>
-                                        <p>166/A/01, Aluthhena, Egaloya<br>Bulathsinhala</p>
+                                        <p>166/A/01<br>Egaloya, Bulathsinhala</p>
                                     </div>
                                     <div class="call-center2 mb-0">
                                         <h4 class="title">Social network</h4>
@@ -339,7 +255,7 @@
                             <textarea id="message" name="message" rows="5" placeholder="Write your message..."
                                 required></textarea>
                             <button type="submit" class="ibt-btn ibt-btn-outline">
-                                <span>Send message</span>
+                                <span>Send message</span>&nbsp;&nbsp;
                                 <i class="icon-arrow-top"></i>
                             </button>
                         </form>
@@ -351,16 +267,16 @@
     <!-- End contact-sec -->
 
     <!-- googel-map -->
-    <section class="googel-map">
+    <!-- <section class="googel-map">
         <h2>googel map</h2>
         <div class="container2">
             <iframe
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Batuwatta,%20gampaha+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Egaloya,%20Bulathsinhala,%20Kalutara+(Saptha%20Global%20Solutions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 height="500" style="border:0; border-radius: 25px;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
-    </section>
+    </section> -->
     <!-- End googel-map -->
 
     <!-- footer-style4 -->
@@ -389,7 +305,7 @@
                          <!-- Contacts -->
                          <div class="col-md-4 footer-widget">
                              <h4 class="widget-title mb-3">Contacts</h4>
-                             <p class="mb-2">166/A/01, Aluthhena, Egaloya, Bulathsinhala</p>
+                             <p class="mb-2">166/A/01<br>Egaloya, Bulathsinhala</p>
                              <a href="tel:+94773340795" class="d-block mb-1 nmbr" aria-label="mobile">(+94)
                                  773340795</a>
                              <a href="https://wa.me/0760543394" aria-label="whatsapp" target="_blank"

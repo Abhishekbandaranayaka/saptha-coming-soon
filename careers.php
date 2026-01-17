@@ -67,16 +67,14 @@
 
 
         <!--Navbar-->
-        <?php include 'components/sub-navbar.php'; ?>
+        <?php include 'components/navbar.php'; ?>
 
         <!-- page-banner -->
         <section class="page-banner">
-            <div class="shape"></div>
-            <div class="shape3"></div>
-            <div class="staff-text">Saptha</div>
+            <div class="staff-text">Careers</div>
             <div class="container">
                 <div class="page-content">
-                    <h1 class="title">Careers</h1>
+                    <h1 class="title">Our Careers</h1>
                 </div>
             </div>
             <ul class="breadcrumbs">

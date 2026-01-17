@@ -23,7 +23,7 @@
                          <!-- Contacts -->
                          <div class="col-md-4 footer-widget">
                              <h4 class="widget-title mb-3">Contacts</h4>
-                             <p class="mb-2">166/A/01, Aluthhena, Egaloya, Bulathsinhala</p>
+                             <p class="mb-2">166/A/01<br>Egaloya, Bulathsinhala</p>
                              <a href="tel:+94773340795" class="d-block mb-1 nmbr" aria-label="mobile">(+94)
                                  773340795</a>
                              <a href="https://wa.me/0760543394" aria-label="whatsapp" target="_blank"

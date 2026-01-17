@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Port = 587; // Change to Gmail TLS port
     $mail->setFrom($email, $name);
     $mail->addReplyTo($email, $name);
-    $mail->addAddress('tinethvihanga1999@gmail.com');
+    $mail->addAddress('info@sapthaglobal.com');
     $mail->isHTML(true);
     $mail->Subject = $subject;
     $bodyContent = "<h1>$subject</h1>";

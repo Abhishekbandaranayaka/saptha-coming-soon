@@ -47,17 +47,16 @@
 
 
     <!--Navbar-->
-    <?php include 'components/sub-navbar.php'; ?>
+    <?php include 'components/navbar.php'; ?>
 
 
     <!-- page-banner9 -->
     <section class="page-banner9">
-        <div class="shape"></div>
-        <div class="shape3"></div>
+
         <div class="staff-text">Contacts</div>
         <div class="container">
             <div class="page-content">
-                <h1 class="title">Contacts</h1>
+                <h1 class="title">Contact Us</h1>
             </div>
         </div>
         <ul class="breadcrumbs">
@@ -103,7 +102,7 @@
                                 <div class="contact-info">
                                     <div class="call-center2">
                                         <h4 class="title">Our Location</h4>
-                                        <p>166/A/01, Aluthhena, Egaloya<br>Bulathsinhala</p>
+                                        <p>166/A/01<br>Egaloya, Bulathsinhala</p>
                                     </div>
                                     <div class="call-center2 mb-0">
                                         <h4 class="title">Social network</h4>
@@ -133,7 +132,7 @@
                             <textarea id="message" name="message" rows="5" placeholder="Write your message..."
                                 required></textarea>
                             <button type="submit" class="ibt-btn ibt-btn-outline">
-                                <span>Send message</span>
+                                <span>Send message</span>&nbsp;&nbsp;
                                 <i class="icon-arrow-top"></i>
                             </button>
                         </form>
@@ -145,16 +144,16 @@
     <!-- End contact-sec -->
 
     <!-- googel-map -->
-    <section class="googel-map">
+    <!-- <section class="googel-map">
         <h2>googel map</h2>
         <div class="container2">
             <iframe
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Batuwatta,%20gampaha+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Egaloya,%20Bulathsinhala,%20Kalutara+(Saptha%20Global%20Solutions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 height="500" style="border:0; border-radius: 25px;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
-    </section>
+    </section> -->
     <!-- End googel-map -->
 
     <!-- footer-style4 -->
