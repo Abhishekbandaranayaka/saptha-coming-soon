@@ -9293,11 +9293,11 @@ input[type="submit"]:hover {
 }
 
 .side-menu2>ul>li>a:hover {
-  color: var(--color-primary);
+  color: #2596be;
 }
 
 .side-menu2>ul>li.active>a {
-  color: var(--color-primary);
+  color: #2596be;
 }
 
 .side-menu2>ul>li.active>a::before {
@@ -29946,22 +29946,27 @@ ul {
 }
 
 .feature-card10 img {
-  margin-bottom: 26px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .feature-card10 .title {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 14px;
   color: var(--color-heading);
+  text-align: center;
   font-weight: 600;
   font-family: var(--font-secondary);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
 }
 
 @media (max-width: 1201px) {
   .feature-card10 .title {
-    font-size: 19px;
+    font-size: 20px;
+    text-align: center;
   }
 }
 
@@ -29970,8 +29975,8 @@ ul {
 }
 
 .feature-card10 p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
   margin-bottom: 0;
   color: var(--color-content-black2);
 }
